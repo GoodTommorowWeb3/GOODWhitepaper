@@ -18,7 +18,7 @@ Good Tomorrow 的设计目标并非维持固定 APY，也不将代币激励作�
 
 文档按以下顺序组织：
 
-1. [English](../en/README.md)
-2. [简体中文](README.md)
-3. [한국어](../ko/README.md)
-4. [日本語](../ja/README.md)
+1. [English](/)
+2. [简体中文](/zh)
+3. [한국어](/ko)
+4. [日本語](/ja)

@@ -16,7 +16,7 @@ Good Tomorrow는 고정 APY를 약속하거나 토큰 인센티브를 장기 수
 
 문서는 다음 순서로 구성됩니다.
 
-1. [English](../en/README.md)
-2. [简体中文](../zh/README.md)
-3. [한국어](README.md)
-4. [日本語](../ja/README.md)
+1. [English](/)
+2. [简体中文](/zh)
+3. [한국어](/ko)
+4. [日本語](/ja)
