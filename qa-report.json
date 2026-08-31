@@ -1,0 +1,183 @@
+{
+  "generated_at": "2026-08-31T18:31:19Z",
+  "passed": true,
+  "language_order": [
+    "English",
+    "简体中文",
+    "한국어",
+    "日本語"
+  ],
+  "markdown_pages_per_language": 16,
+  "checks": [
+    {
+      "name": "English is default GitBook root",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Language order is English, Simplified Chinese, Korean, Japanese",
+      "passed": true,
+      "details": "* [English](docs/en/) / * [简体中文](docs/zh/) / * [한국어](docs/ko/) / * [日本語](docs/ja/)"
+    },
+    {
+      "name": "en has same Markdown hierarchy as English",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "en has .gitbook.yaml",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "en SUMMARY links resolve",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "zh has same Markdown hierarchy as English",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "zh has .gitbook.yaml",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "zh SUMMARY links resolve",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "ko has same Markdown hierarchy as English",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "ko has .gitbook.yaml",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "ko SUMMARY links resolve",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "ja has same Markdown hierarchy as English",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "ja has .gitbook.yaml",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "ja SUMMARY links resolve",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Markdown image references resolve",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "No unresolved placeholders in publishable docs",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Source DeFI typo normalized in publishable docs",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "en preserves required protocol terms",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "en preserves token supply facts",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "en preserves lockup formula",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "en preserves 14 references",
+      "passed": true,
+      "details": "14"
+    },
+    {
+      "name": "zh preserves required protocol terms",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "zh preserves token supply facts",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "zh preserves lockup formula",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "zh preserves 14 references",
+      "passed": true,
+      "details": "14"
+    },
+    {
+      "name": "ko preserves required protocol terms",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "ko preserves token supply facts",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "ko preserves lockup formula",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "ko preserves 14 references",
+      "passed": true,
+      "details": "14"
+    },
+    {
+      "name": "ja preserves required protocol terms",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "ja preserves token supply facts",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "ja preserves lockup formula",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "ja preserves 14 references",
+      "passed": true,
+      "details": "14"
+    },
+    {
+      "name": "Content map covers source-derived pages",
+      "passed": true,
+      "details": ""
+    }
+  ]
+}

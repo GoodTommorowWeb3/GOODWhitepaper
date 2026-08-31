@@ -14,7 +14,7 @@ description: Good Tomorrow Documentation
 ## Terminology Rules
 
 - Keep **Good Tomorrow**, **BNB Smart Chain**, **USDC**, **DeFi**, **RWA**, **APY**, and **TVL** unchanged across languages.
-- Normalize the source typo `DeFI` to `DeFi` in all publishable documentation.
+- Normalize inconsistent source capitalization to `DeFi` in all publishable documentation.
 - Translate concepts rather than word-for-word sentence order when needed, but preserve numbers, percentages, lockup terms, phase order, and protocol constraints.
 - Do not convert the protocol into a fixed-yield product in translation. Use wording that clearly distinguishes realized financial income from nominal APY and token incentives.
 - Preserve risk caveats for RWA, strategy capacity, liquidity reserves, and solvency.

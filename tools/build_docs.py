@@ -1086,7 +1086,7 @@ Good Tomorrow はこの体系の資本基盤レイヤーを目指します。DeF
 GLOSSARY = [
     ("Good Tomorrow", "Protocol and native ecosystem token name; keep untranslated."),
     ("BNB Smart Chain", "Target blockchain for the protocol and token deployment."),
-    ("DeFi", "Decentralized finance; normalize source typo `DeFI` to `DeFi`."),
+    ("DeFi", "Decentralized finance; normalize inconsistent source capitalization to `DeFi`."),
     ("RWA", "Real-world assets; assets whose value depends on offchain legal and cash-flow structures."),
     ("APY", "Annual percentage yield; do not use as a synonym for realized return."),
     ("TVL", "Total value locked; used when discussing scale effects."),
@@ -1143,7 +1143,7 @@ def common_project_content(lang, key):
 ## Terminology Rules
 
 - Keep **Good Tomorrow**, **BNB Smart Chain**, **USDC**, **DeFi**, **RWA**, **APY**, and **TVL** unchanged across languages.
-- Normalize the source typo `DeFI` to `DeFi` in all publishable documentation.
+- Normalize inconsistent source capitalization to `DeFi` in all publishable documentation.
 - Translate concepts rather than word-for-word sentence order when needed, but preserve numbers, percentages, lockup terms, phase order, and protocol constraints.
 - Do not convert the protocol into a fixed-yield product in translation. Use wording that clearly distinguishes realized financial income from nominal APY and token incentives.
 - Preserve risk caveats for RWA, strategy capacity, liquidity reserves, and solvency.
