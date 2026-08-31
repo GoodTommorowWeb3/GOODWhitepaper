@@ -30,10 +30,3 @@
 ## Reference
 
 * [References](reference/references.md)
-
-## Project QA
-
-* [Glossary](project/glossary.md)
-* [Content Map](project/content-map.md)
-* [Translation Guide](project/translation-guide.md)
-* [QA Report](project/qa-report.md)

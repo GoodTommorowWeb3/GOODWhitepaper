@@ -129,13 +129,13 @@ def validate():
         references = re.findall(r"^\d+\.", read(DOCS / lang / "reference" / "references.md"), flags=re.MULTILINE)
         add(checks, f"{lang} preserves 14 references", len(references) == 14, str(len(references)))
 
-    content_map = read(DOCS / "en" / "project" / "content-map.md")
-    missing_from_map = [row for row in baseline if row not in {"SUMMARY.md"} and row not in content_map and not row.startswith("project/")]
-    add(checks, "Content map covers source-derived pages", not missing_from_map, ", ".join(missing_from_map))
+    public_project_pages = [str(path.relative_to(ROOT)) for path in DOCS.glob("*/project/*.md")]
+    add(checks, "No internal QA pages in publishable docs", not public_project_pages, ", ".join(public_project_pages))
 
     passed = all(check["passed"] for check in checks)
     existing_generated_at = None
-    report_path = ROOT / "qa-report.json"
+    report_path = ROOT / "outputs" / "qa-report.json"
+    report_path.parent.mkdir(exist_ok=True)
     if report_path.exists():
         try:
             existing_generated_at = json.loads(read(report_path)).get("generated_at")
@@ -151,28 +151,7 @@ def validate():
     }
     report_path.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
-    rows = "\n".join(
-        "| {} | {} | {} |".format("PASS" if check["passed"] else "FAIL", check["name"], check["details"].replace("|", "\\|"))
-        for check in checks
-    )
     status = "PASS" if passed else "FAIL"
-    md = f"""# QA Report
-
-Status: **{status}**
-
-Updated: `{report['generated_at']}`
-
-| Result | Check | Details |
-| --- | --- | --- |
-{rows}
-
-## Publishing Readiness
-
-The documentation structure is ready to connect to GitBook as one default English space with Simplified Chinese, Korean, and Japanese language variants.
-"""
-    for lang in LANGS:
-        (DOCS / lang / "project" / "qa-report.md").write_text(md, encoding="utf-8")
-
     print("QA status:", status)
     for check in checks:
         print("[{}] {}".format("PASS" if check["passed"] else "FAIL", check["name"]))

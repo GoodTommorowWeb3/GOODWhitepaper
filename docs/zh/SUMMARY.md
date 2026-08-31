@@ -30,10 +30,3 @@
 ## 参考
 
 * [参考文献](reference/references.md)
-
-## 项目 QA
-
-* [术语表](project/glossary.md)
-* [内容映射](project/content-map.md)
-* [翻译指南](project/translation-guide.md)
-* [QA 报告](project/qa-report.md)

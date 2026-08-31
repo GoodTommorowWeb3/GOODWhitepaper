@@ -27,10 +27,6 @@ PAGES = [
     ("roadmap/development-roadmap.md", "roadmap", {"en": "Development Roadmap", "zh": "发展路线图", "ko": "개발 로드맵", "ja": "開発ロードマップ"}),
     ("roadmap/long-term-vision.md", "vision", {"en": "Long-Term Vision", "zh": "长期愿景", "ko": "장기 비전", "ja": "長期ビジョン"}),
     ("reference/references.md", "references", {"en": "References", "zh": "参考文献", "ko": "참고 문헌", "ja": "参考文献"}),
-    ("project/glossary.md", "glossary", {"en": "Glossary", "zh": "术语表", "ko": "용어집", "ja": "用語集"}),
-    ("project/content-map.md", "content_map", {"en": "Content Map", "zh": "内容映射", "ko": "콘텐츠 맵", "ja": "コンテンツマップ"}),
-    ("project/translation-guide.md", "translation_guide", {"en": "Translation Guide", "zh": "翻译指南", "ko": "번역 가이드", "ja": "翻訳ガイド"}),
-    ("project/qa-report.md", "qa_report", {"en": "QA Report", "zh": "QA 报告", "ko": "QA 보고서", "ja": "QAレポート"}),
 ]
 
 CONTENT = {
@@ -51,10 +47,10 @@ As stablecoin markets, payment networks, regional stablecoins, and RWA modules a
 
 The documentation is organized in this order:
 
-1. English
-2. 简体中文
-3. 한국어
-4. 日本語
+1. [English](README.md)
+2. [简体中文](../zh/README.md)
+3. [한국어](../ko/README.md)
+4. [日本語](../ja/README.md)
 
 ## Documentation Structure
 
@@ -1091,36 +1087,6 @@ Good Tomorrow はこの体系の資本基盤レイヤーを目指します。DeF
     "references": CONTENT["en"]["references"],
 }
 
-GLOSSARY = [
-    ("Good Tomorrow", "Protocol and native ecosystem token name; keep untranslated."),
-    ("BNB Smart Chain", "Target blockchain for the protocol and token deployment."),
-    ("DeFi", "Decentralized finance; normalize inconsistent source capitalization to `DeFi`."),
-    ("RWA", "Real-world assets; assets whose value depends on offchain legal and cash-flow structures."),
-    ("APY", "Annual percentage yield; do not use as a synonym for realized return."),
-    ("TVL", "Total value locked; used when discussing scale effects."),
-    ("USDC", "Stablecoin used in the initial Good Tomorrow/USDC liquidity market."),
-    ("Risk reserve", "Protocol reserve funded from actual income to absorb losses and external risks."),
-    ("Proof of reserves", "Mechanism for showing protocol assets and reserves."),
-    ("Proof of capital utilization", "Mechanism for showing where user assets are allocated."),
-    ("Proof of yield", "Mechanism for showing realized income and its sources."),
-]
-
-CONTENT_MAP_ROWS = [
-    ("README.md", "Title, subtitle, abstract thesis", "Protocol positioning and language entry point"),
-    ("overview/introduction.md", "Abstract; 1. Introduction; 2. Problem Statement", "Market background, fragmentation, opaque yield, capacity mismatch"),
-    ("protocol/architecture.md", "3. Protocol Overview; 4. System Architecture", "Operating flow and five core modules"),
-    ("protocol/liquidity-infrastructure.md", "5. Liquidity Infrastructure", "Liquidity as unified managed capital resource"),
-    ("protocol/capital-management.md", "6. Capital Management and Asset Allocation", "Strategy capacity, risk-adjusted allocation, TVL scale effects"),
-    ("protocol/yield-profit-distribution.md", "7. Yield Generation and Profit Distribution", "Realized income principle and distributable profit"),
-    ("networks/stablecoin-payments-rwa.md", "8. Stablecoin Liquidity Network; 9. Payments and Settlement; 10. RWA", "Network expansion into stablecoins, payments, and RWA"),
-    ("risk/transparency-and-solvency.md", "11. Risk Management; 12. Onchain Transparency", "Solvency controls, risk reserves, financial verification"),
-    ("governance/token-and-governance.md", "13. Token Supply; 14. Governance", "Token supply table, lockup, governance boundaries"),
-    ("roadmap/development-roadmap.md", "15. Roadmap", "Seven development phases"),
-    ("roadmap/long-term-vision.md", "16. Long-Term Vision", "Final infrastructure thesis"),
-    ("reference/references.md", "References", "Source references preserved"),
-]
-
-
 def page_title(lang, key):
     for path, k, titles in PAGES:
         if k == key:
@@ -1128,53 +1094,8 @@ def page_title(lang, key):
     raise KeyError(key)
 
 
-def common_project_content(lang, key):
-    if key == "glossary":
-        title = page_title(lang, key)
-        rows = "\n".join(f"| {term} | {definition} |" for term, definition in GLOSSARY)
-        return f"# {title}\n\n| Term | Usage |\n| --- | --- |\n{rows}\n"
-    if key == "content_map":
-        title = page_title(lang, key)
-        rows = "\n".join(f"| `{path}` | {source} | {purpose} |" for path, source, purpose in CONTENT_MAP_ROWS)
-        return f"# {title}\n\nThis map traces each GitBook page back to the source whitepaper.\n\n| GitBook Page | Source Coverage | Documentation Purpose |\n| --- | --- | --- |\n{rows}\n"
-    if key == "translation_guide":
-        title = page_title(lang, key)
-        return f"""# {title}
-
-## Language Order
-
-1. English
-2. 简体中文
-3. 한국어
-4. 日本語
-
-## Terminology Rules
-
-- Keep **Good Tomorrow**, **BNB Smart Chain**, **USDC**, **DeFi**, **RWA**, **APY**, and **TVL** unchanged across languages.
-- Normalize inconsistent source capitalization to `DeFi` in all publishable documentation.
-- Translate concepts rather than word-for-word sentence order when needed, but preserve numbers, percentages, lockup terms, phase order, and protocol constraints.
-- Do not convert the protocol into a fixed-yield product in translation. Use wording that clearly distinguishes realized financial income from nominal APY and token incentives.
-- Preserve risk caveats for RWA, strategy capacity, liquidity reserves, and solvency.
-
-## Style
-
-Use a professional Web3 protocol documentation tone: precise, neutral, and implementation-aware. Avoid promotional claims that are not present in the source whitepaper.
-"""
-    if key == "qa_report":
-        title = page_title(lang, key)
-        return f"""# {title}
-
-This page records the publication readiness checks for the multilingual documentation set.
-
-The maintained checks cover language order, navigation parity, link resolution, image references, token-supply facts, formula preservation, reference count, terminology consistency, and unresolved placeholders.
-"""
-    raise KeyError(key)
-
-
 def content_for(lang, key):
-    if key in CONTENT[lang]:
-        return CONTENT[lang][key].rstrip() + "\n"
-    return common_project_content(lang, key).rstrip() + "\n"
+    return CONTENT[lang][key].rstrip() + "\n"
 
 
 def summary_for(lang):
@@ -1186,7 +1107,6 @@ def summary_for(lang):
         "governance": {"en": "Risk, Token, and Governance", "zh": "风险、代币与治理", "ko": "리스크, 토큰, 거버넌스", "ja": "リスク、トークン、ガバナンス"}[lang],
         "roadmap": {"en": "Roadmap and Vision", "zh": "路线图与愿景", "ko": "로드맵과 비전", "ja": "ロードマップとビジョン"}[lang],
         "reference": {"en": "Reference", "zh": "参考", "ko": "참고", "ja": "リファレンス"}[lang],
-        "project": {"en": "Project QA", "zh": "项目 QA", "ko": "프로젝트 QA", "ja": "プロジェクトQA"}[lang],
     }
     links = {key: (path, titles[lang]) for path, key, titles in PAGES}
     return f"""# {title}
@@ -1221,13 +1141,6 @@ def summary_for(lang):
 ## {labels['reference']}
 
 * [{links['references'][1]}]({links['references'][0]})
-
-## {labels['project']}
-
-* [{links['glossary'][1]}]({links['glossary'][0]})
-* [{links['content_map'][1]}]({links['content_map'][0]})
-* [{links['translation_guide'][1]}]({links['translation_guide'][0]})
-* [{links['qa_report'][1]}]({links['qa_report'][0]})
 """
 
 

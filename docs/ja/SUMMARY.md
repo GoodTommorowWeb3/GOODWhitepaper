@@ -30,10 +30,3 @@
 ## リファレンス
 
 * [参考文献](reference/references.md)
-
-## プロジェクトQA
-
-* [用語集](project/glossary.md)
-* [コンテンツマップ](project/content-map.md)
-* [翻訳ガイド](project/translation-guide.md)
-* [QAレポート](project/qa-report.md)

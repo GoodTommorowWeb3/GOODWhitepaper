@@ -18,10 +18,10 @@ As stablecoin markets, payment networks, regional stablecoins, and RWA modules a
 
 The documentation is organized in this order:
 
-1. English
-2. 简体中文
-3. 한국어
-4. 日本語
+1. [English](README.md)
+2. [简体中文](../zh/README.md)
+3. [한국어](../ko/README.md)
+4. [日本語](../ja/README.md)
 
 ## Documentation Structure
 

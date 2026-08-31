@@ -30,10 +30,3 @@
 ## 참고
 
 * [참고 문헌](reference/references.md)
-
-## 프로젝트 QA
-
-* [용어집](project/glossary.md)
-* [콘텐츠 맵](project/content-map.md)
-* [번역 가이드](project/translation-guide.md)
-* [QA 보고서](project/qa-report.md)

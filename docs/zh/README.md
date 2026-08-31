@@ -13,3 +13,12 @@ Good Tomorrow 是构建于 BNB Smart Chain 上的链上流动性金融基础设�
 Good Tomorrow 的设计目标并非维持固定 APY，也不将代币激励作为长期收益的主要来源。协议采用基于实际金融收入的利润结算机制，在扣除已实现损失、风险准备、流动性储备和必要运营成本后，将剩余可分配净利润按照协议规则进行分配。
 
 随着稳定币市场、支付网络、区域性稳定币及 RWA 模块逐步接入，Good Tomorrow 将从基础流动性协议发展为连接不同资产与金融服务的 Onchain Financial Network。
+
+## 语言版本
+
+文档按以下顺序组织：
+
+1. [English](../en/README.md)
+2. [简体中文](README.md)
+3. [한국어](../ko/README.md)
+4. [日本語](../ja/README.md)
