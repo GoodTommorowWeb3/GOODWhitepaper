@@ -31,7 +31,7 @@ Good Tomorrow's long-term goal is to build an onchain transparency system aligne
 - How many assets the protocol manages
 - How many assets remain liquid
 - How much capital has been deployed
-- Which activities generated realized income
+- Which activities produced realized income
 
 The protocol aims to progressively establish proof of reserves, proof of capital utilization, and proof of yield.
 

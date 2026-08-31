@@ -95,6 +95,11 @@
       "details": ""
     },
     {
+      "name": "No AI or tooling provenance terms in publishable docs",
+      "passed": true,
+      "details": ""
+    },
+    {
       "name": "en preserves required protocol terms",
       "passed": true,
       "details": ""

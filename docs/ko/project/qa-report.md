@@ -23,6 +23,7 @@ Updated: `2026-08-31T18:32:01Z`
 | PASS | Markdown image references resolve |  |
 | PASS | No unresolved placeholders in publishable docs |  |
 | PASS | Source DeFi capitalization normalized in publishable docs |  |
+| PASS | No AI or tooling provenance terms in publishable docs |  |
 | PASS | en preserves required protocol terms |  |
 | PASS | en preserves token supply facts |  |
 | PASS | en preserves lockup formula |  |
