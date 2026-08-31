@@ -71,7 +71,7 @@ def validate():
     publish_text = "\n".join(read(path) for path in all_docs)
     placeholders = re.findall(r"\b(TODO|TBD|FIXME|PLACEHOLDER)\b", publish_text, flags=re.IGNORECASE)
     add(checks, "No unresolved placeholders in publishable docs", not placeholders, ", ".join(sorted(set(placeholders))))
-    add(checks, "Source DeFI typo normalized in publishable docs", "DeFI" not in publish_text)
+    add(checks, "Source DeFi capitalization normalized in publishable docs", "DeFI" not in publish_text)
 
     for lang in LANGS:
         combined = "\n".join(read(path) for path in (DOCS / lang).rglob("*.md"))
@@ -89,14 +89,22 @@ def validate():
     add(checks, "Content map covers source-derived pages", not missing_from_map, ", ".join(missing_from_map))
 
     passed = all(check["passed"] for check in checks)
+    existing_generated_at = None
+    report_path = ROOT / "qa-report.json"
+    if report_path.exists():
+        try:
+            existing_generated_at = json.loads(read(report_path)).get("generated_at")
+        except Exception:
+            existing_generated_at = None
+
     report = {
-        "generated_at": datetime.utcnow().replace(microsecond=0).isoformat() + "Z",
+        "generated_at": existing_generated_at or datetime.utcnow().replace(microsecond=0).isoformat() + "Z",
         "passed": passed,
         "language_order": LANG_NAMES,
         "markdown_pages_per_language": len(baseline) - 1,
         "checks": checks,
     }
-    (ROOT / "qa-report.json").write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    report_path.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
     rows = "\n".join(
         "| {} | {} | {} |".format("PASS" if check["passed"] else "FAIL", check["name"], check["details"].replace("|", "\\|"))

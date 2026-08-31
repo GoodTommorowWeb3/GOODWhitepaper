@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T18:31:19Z",
+  "generated_at": "2026-08-31T18:32:01Z",
   "passed": true,
   "language_order": [
     "English",
@@ -90,7 +90,7 @@
       "details": ""
     },
     {
-      "name": "Source DeFI typo normalized in publishable docs",
+      "name": "Source DeFi capitalization normalized in publishable docs",
       "passed": true,
       "details": ""
     },

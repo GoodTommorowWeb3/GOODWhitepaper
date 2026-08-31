@@ -2,7 +2,7 @@
 
 Status: **PASS**
 
-Generated: `2026-08-31T18:31:19Z`
+Generated: `2026-08-31T18:32:01Z`
 
 | Result | Check | Details |
 | --- | --- | --- |
@@ -22,7 +22,7 @@ Generated: `2026-08-31T18:31:19Z`
 | PASS | ja SUMMARY links resolve |  |
 | PASS | Markdown image references resolve |  |
 | PASS | No unresolved placeholders in publishable docs |  |
-| PASS | Source DeFI typo normalized in publishable docs |  |
+| PASS | Source DeFi capitalization normalized in publishable docs |  |
 | PASS | en preserves required protocol terms |  |
 | PASS | en preserves token supply facts |  |
 | PASS | en preserves lockup formula |  |
