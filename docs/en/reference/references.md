@@ -1,5 +1,5 @@
 ---
-description: Good Tomorrow Documentation
+description: Good Tomorrow Whitepaper
 ---
 
 # References

@@ -8,10 +8,10 @@ ROOT = Path(__file__).resolve().parents[1]
 DOCS = ROOT / "docs"
 
 LANGS = [
-    ("en", "English", "Good Tomorrow Documentation"),
-    ("zh", "简体中文", "Good Tomorrow 文档"),
-    ("ko", "한국어", "Good Tomorrow 문서"),
-    ("ja", "日本語", "Good Tomorrow ドキュメント"),
+    ("en", "English", "Good Tomorrow Whitepaper"),
+    ("zh", "简体中文", "Good Tomorrow 白皮书"),
+    ("ko", "한국어", "Good Tomorrow 백서"),
+    ("ja", "日本語", "Good Tomorrow ホワイトペーパー"),
 ]
 
 PAGES = [
@@ -1153,21 +1153,17 @@ def main():
     write(ROOT / ".gitbook.yaml", "root: ./docs/en\n\nstructure:\n  readme: README.md\n  summary: SUMMARY.md\n")
     write(ROOT / "LANGS.md", "# Languages\n\n* [English](docs/en/)\n* [简体中文](docs/zh/)\n* [한국어](docs/ko/)\n* [日本語](docs/ja/)\n")
     write(DOCS / "LANGS.md", "# Languages\n\n* [English](en/)\n* [简体中文](zh/)\n* [한국어](ko/)\n* [日本語](ja/)\n")
-    write(ROOT / "README.md", """# Good Tomorrow GitBook Documentation
+    write(ROOT / "README.md", """# Good Tomorrow Whitepaper
 
-This repository contains production-ready multilingual GitBook documentation for the Good Tomorrow whitepaper.
+This repository contains the multilingual Good Tomorrow whitepaper.
 
-English is configured as the default GitBook space through `.gitbook.yaml`. The localized spaces are available under `docs/zh`, `docs/ko`, and `docs/ja`, with matching navigation and page hierarchy.
+English is configured as the default language. Simplified Chinese, Korean, and Japanese are available under `docs/zh`, `docs/ko`, and `docs/ja`, with matching navigation and page hierarchy.
 
-## Documentation QA
+## Local Validation
 
 ```bash
 python3 tools/validate_docs.py
 ```
-
-## GitBook Setup
-
-For the default English space, connect GitBook Git Sync to the repository root. For language variants, create separate GitBook spaces and set their project directories to `docs/zh`, `docs/ko`, and `docs/ja` respectively, then link those spaces as site variants in GitBook.
 """)
     for lang, name, gitbook_title in LANGS:
         lang_dir = DOCS / lang

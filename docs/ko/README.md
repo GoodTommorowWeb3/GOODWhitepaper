@@ -1,5 +1,5 @@
 ---
-description: Good Tomorrow 문서
+description: Good Tomorrow 백서
 ---
 
 ![GOOD 로고](../.gitbook/assets/good-logo.jpeg)

@@ -1,5 +1,5 @@
 ---
-description: Good Tomorrow 文档
+description: Good Tomorrow 白皮书
 ---
 
 # 收益与利润分配

@@ -1,5 +1,5 @@
 ---
-description: Good Tomorrow ドキュメント
+description: Good Tomorrow ホワイトペーパー
 ---
 
 ![GOOD ロゴ](../.gitbook/assets/good-logo.jpeg)

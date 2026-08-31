@@ -1,5 +1,5 @@
 ---
-description: Good Tomorrow ドキュメント
+description: Good Tomorrow ホワイトペーパー
 ---
 
 # ステーブルコイン、決済、RWA

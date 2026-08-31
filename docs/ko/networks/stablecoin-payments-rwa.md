@@ -1,5 +1,5 @@
 ---
-description: Good Tomorrow 문서
+description: Good Tomorrow 백서
 ---
 
 # 스테이블코인, 결제, RWA

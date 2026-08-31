@@ -1,5 +1,5 @@
 ---
-description: Good Tomorrow 문서
+description: Good Tomorrow 백서
 ---
 
 # 자본 관리

@@ -1,5 +1,5 @@
 ---
-description: Good Tomorrow 文档
+description: Good Tomorrow 白皮书
 ---
 
 ![GOOD 标志](../.gitbook/assets/good-logo.jpeg)

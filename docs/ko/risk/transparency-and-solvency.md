@@ -1,5 +1,5 @@
 ---
-description: Good Tomorrow 문서
+description: Good Tomorrow 백서
 ---
 
 # 리스크, 지급능력, 투명성

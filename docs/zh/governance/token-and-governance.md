@@ -1,5 +1,5 @@
 ---
-description: Good Tomorrow 文档
+description: Good Tomorrow 白皮书
 ---
 
 # 代币与治理

@@ -1,7 +1,7 @@
 $schema: https://api.gitbook.com/gitbook-docs.yaml
 version: 1
 site:
-  title: Good Tomorrow Docs
+  title: Good Tomorrow Whitepaper
   structure:
     - type: space
       key: good-tomorrow-en
