@@ -16,7 +16,7 @@ Good Tomorrow は固定 APY を約束せず、トークンインセンティブ�
 
 ドキュメントは次の順序で構成されています。
 
-1. [English](/)
-2. [简体中文](/zh)
-3. [한국어](/ko)
-4. [日本語](/ja)
+1. [English](https://goodtomorrow.gitbook.io/goodtomorrow-docs)
+2. [简体中文](https://goodtomorrow.gitbook.io/goodtomorrow-docs/zh)
+3. [한국어](https://goodtomorrow.gitbook.io/goodtomorrow-docs/ko)
+4. [日本語](https://goodtomorrow.gitbook.io/goodtomorrow-docs/ja)

@@ -18,7 +18,7 @@ Good Tomorrow 的设计目标并非维持固定 APY，也不将代币激励作�
 
 文档按以下顺序组织：
 
-1. [English](/)
-2. [简体中文](/zh)
-3. [한국어](/ko)
-4. [日本語](/ja)
+1. [English](https://goodtomorrow.gitbook.io/goodtomorrow-docs)
+2. [简体中文](https://goodtomorrow.gitbook.io/goodtomorrow-docs/zh)
+3. [한국어](https://goodtomorrow.gitbook.io/goodtomorrow-docs/ko)
+4. [日本語](https://goodtomorrow.gitbook.io/goodtomorrow-docs/ja)

@@ -47,10 +47,10 @@ As stablecoin markets, payment networks, regional stablecoins, and RWA modules a
 
 The documentation is organized in this order:
 
-1. [English](/)
-2. [简体中文](/zh)
-3. [한국어](/ko)
-4. [日本語](/ja)
+1. [English](https://goodtomorrow.gitbook.io/goodtomorrow-docs)
+2. [简体中文](https://goodtomorrow.gitbook.io/goodtomorrow-docs/zh)
+3. [한국어](https://goodtomorrow.gitbook.io/goodtomorrow-docs/ko)
+4. [日本語](https://goodtomorrow.gitbook.io/goodtomorrow-docs/ja)
 
 ## Documentation Structure
 
