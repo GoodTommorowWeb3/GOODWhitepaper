@@ -8,6 +8,9 @@ Updated: `2026-08-31T18:32:01Z`
 | --- | --- | --- |
 | PASS | English is default GitBook root |  |
 | PASS | Language order is English, Simplified Chinese, Korean, Japanese | * [English](docs/en/) / * [简体中文](docs/zh/) / * [한국어](docs/ko/) / * [日本語](docs/ja/) |
+| PASS | Site Git Sync structure exists |  |
+| PASS | Site Git Sync schema is declared |  |
+| PASS | Site Git Sync language mapping is complete |  |
 | PASS | en has same Markdown hierarchy as English |  |
 | PASS | en has .gitbook.yaml |  |
 | PASS | en SUMMARY links resolve |  |

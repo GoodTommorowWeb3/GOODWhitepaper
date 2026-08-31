@@ -27,6 +27,12 @@ PROVENANCE_PATTERNS = [
 ]
 IMAGE_RE = re.compile(r"!\[[^\]]*\]\(([^)]+)\)")
 LINK_RE = re.compile(r"\[[^\]]+\]\(([^)]+\.md)\)")
+SITE_LANG_BLOCKS = [
+    ("good-tomorrow-en", "English", "./docs/en", "en", True),
+    ("good-tomorrow-zh", "简体中文", "./docs/zh", "zh", False),
+    ("good-tomorrow-ko", "한국어", "./docs/ko", "ko", False),
+    ("good-tomorrow-ja", "日本語", "./docs/ja", "ja", False),
+]
 
 
 def read(path):
@@ -60,6 +66,32 @@ def validate():
     ordered = [line.strip() for line in langs_text.splitlines() if line.startswith("* ")]
     expected = ["* [English](docs/en/)", "* [简体中文](docs/zh/)", "* [한국어](docs/ko/)", "* [日本語](docs/ja/)"]
     add(checks, "Language order is English, Simplified Chinese, Korean, Japanese", ordered == expected, " / ".join(ordered))
+
+    site_map_path = ROOT / "gitbook-docs.yaml"
+    add(checks, "Site Git Sync structure exists", site_map_path.exists())
+    if site_map_path.exists():
+        site_map = read(site_map_path)
+        add(checks, "Site Git Sync schema is declared", "$schema: https://api.gitbook.com/gitbook-docs.yaml" in site_map)
+        positions = []
+        missing_site_entries = []
+        for key, title, directory, language, is_default in SITE_LANG_BLOCKS:
+            key_pos = site_map.find(f"key: {key}")
+            positions.append(key_pos)
+            if key_pos < 0:
+                missing_site_entries.append(key)
+            for marker in (f"title: {title}", f"directory: {directory}", f"language: {language}"):
+                if marker not in site_map:
+                    missing_site_entries.append(marker)
+            if is_default and "default: true" not in site_map[key_pos:key_pos + 180]:
+                missing_site_entries.append(f"{key} default")
+            if not is_default and "default: true" in site_map[key_pos:key_pos + 180]:
+                missing_site_entries.append(f"{key} should not be default")
+        add(
+            checks,
+            "Site Git Sync language mapping is complete",
+            not missing_site_entries and positions == sorted(positions),
+            ", ".join(missing_site_entries),
+        )
 
     baseline = markdown_files("en")
     for lang in LANGS:

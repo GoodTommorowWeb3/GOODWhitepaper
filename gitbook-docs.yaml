@@ -1,0 +1,34 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+version: 1
+site:
+  title: Good Tomorrow Docs
+  structure:
+    - type: space
+      key: good-tomorrow-en
+      title: English
+      path: en
+      default: true
+      content:
+        directory: ./docs/en
+        language: en
+    - type: space
+      key: good-tomorrow-zh
+      title: 简体中文
+      path: zh
+      content:
+        directory: ./docs/zh
+        language: zh
+    - type: space
+      key: good-tomorrow-ko
+      title: 한국어
+      path: ko
+      content:
+        directory: ./docs/ko
+        language: ko
+    - type: space
+      key: good-tomorrow-ja
+      title: 日本語
+      path: ja
+      content:
+        directory: ./docs/ja
+        language: ja
