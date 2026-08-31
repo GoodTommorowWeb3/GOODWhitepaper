@@ -2,6 +2,8 @@
 description: Good Tomorrow 문서
 ---
 
+![GOOD 로고](../.gitbook/assets/good-logo.jpeg)
+
 # Good Tomorrow
 
 Good Tomorrow는 BNB Smart Chain 위에 구축되는 온체인 유동성 금융 인프라 프로토콜입니다. 핵심 대상은 스테이블코인, 실물자산(RWA), 결제 생태계입니다.

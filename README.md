@@ -4,7 +4,7 @@ This repository contains production-ready multilingual GitBook documentation for
 
 English is configured as the default GitBook space through `.gitbook.yaml`. The localized spaces are available under `docs/zh`, `docs/ko`, and `docs/ja`, with matching navigation and page hierarchy.
 
-## Local QA
+## Documentation QA
 
 ```bash
 python3 tools/validate_docs.py

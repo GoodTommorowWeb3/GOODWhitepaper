@@ -35,7 +35,9 @@ PAGES = [
 
 CONTENT = {
     "en": {
-        "home": """# Good Tomorrow
+        "home": """![GOOD logo](../.gitbook/assets/good-logo.jpeg)
+
+# Good Tomorrow
 
 Good Tomorrow is an onchain liquidity finance infrastructure protocol built on BNB Smart Chain for stablecoins, real-world assets (RWA), and payment ecosystems.
 
@@ -434,7 +436,9 @@ The protocol's ultimate value is not fixed yield. Its value is the creation of a
 }
 
 CONTENT["zh"] = {
-    "home": """# Good Tomorrow
+    "home": """![GOOD 标志](../.gitbook/assets/good-logo.jpeg)
+
+# Good Tomorrow
 
 Good Tomorrow 是构建于 BNB Smart Chain 上的链上流动性金融基础设施协议，面向稳定币、现实世界资产（RWA）与支付生态。
 
@@ -740,7 +744,9 @@ Good Tomorrow 希望成为这一体系中的资本基础层。
 }
 
 CONTENT["ko"] = {
-    "home": """# Good Tomorrow
+    "home": """![GOOD 로고](../.gitbook/assets/good-logo.jpeg)
+
+# Good Tomorrow
 
 Good Tomorrow는 BNB Smart Chain 위에 구축되는 온체인 유동성 금융 인프라 프로토콜입니다. 핵심 대상은 스테이블코인, 실물자산(RWA), 결제 생태계입니다.
 
@@ -912,7 +918,9 @@ Good Tomorrow는 이 체계의 자본 기반 계층이 되고자 합니다. DeFi
 }
 
 CONTENT["ja"] = {
-    "home": """# Good Tomorrow
+    "home": """![GOOD ロゴ](../.gitbook/assets/good-logo.jpeg)
+
+# Good Tomorrow
 
 Good Tomorrow は、BNB Smart Chain 上に構築されるオンチェーン流動性金融インフラプロトコルです。対象領域はステーブルコイン、現実世界資産（RWA）、決済エコシステムです。
 
@@ -1156,13 +1164,9 @@ Use a professional Web3 protocol documentation tone: precise, neutral, and imple
         title = page_title(lang, key)
         return f"""# {title}
 
-Generated QA status is maintained in `qa-report.json` at the repository root after running:
+This page records the publication readiness checks for the multilingual documentation set.
 
-```bash
-python3 tools/validate_docs.py
-```
-
-The latest human-readable QA summary is mirrored in the English QA report and can be localized if the report format is expanded later.
+The maintained checks cover language order, navigation parity, link resolution, image references, token-supply facts, formula preservation, reference count, terminology consistency, and unresolved placeholders.
 """
     raise KeyError(key)
 
@@ -1242,7 +1246,7 @@ This repository contains production-ready multilingual GitBook documentation for
 
 English is configured as the default GitBook space through `.gitbook.yaml`. The localized spaces are available under `docs/zh`, `docs/ko`, and `docs/ja`, with matching navigation and page hierarchy.
 
-## Local QA
+## Documentation QA
 
 ```bash
 python3 tools/validate_docs.py

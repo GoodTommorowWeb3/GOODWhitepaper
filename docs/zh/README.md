@@ -2,6 +2,8 @@
 description: Good Tomorrow 文档
 ---
 
+![GOOD 标志](../.gitbook/assets/good-logo.jpeg)
+
 # Good Tomorrow
 
 Good Tomorrow 是构建于 BNB Smart Chain 上的链上流动性金融基础设施协议，面向稳定币、现实世界资产（RWA）与支付生态。

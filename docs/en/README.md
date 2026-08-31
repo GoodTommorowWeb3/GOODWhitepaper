@@ -2,6 +2,8 @@
 description: Good Tomorrow Documentation
 ---
 
+![GOOD logo](../.gitbook/assets/good-logo.jpeg)
+
 # Good Tomorrow
 
 Good Tomorrow is an onchain liquidity finance infrastructure protocol built on BNB Smart Chain for stablecoins, real-world assets (RWA), and payment ecosystems.

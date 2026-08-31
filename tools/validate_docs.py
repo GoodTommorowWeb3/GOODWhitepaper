@@ -115,15 +115,15 @@ def validate():
 
 Status: **{status}**
 
-Generated: `{report['generated_at']}`
+Updated: `{report['generated_at']}`
 
 | Result | Check | Details |
 | --- | --- | --- |
 {rows}
 
-## Publishing Note
+## Publishing Readiness
 
-No GitBook or GitHub credential environment variables were detected during repository preparation. The repository is ready for GitBook Git Sync; direct publishing was not attempted without credentials.
+The documentation structure is ready to connect to GitBook as one default English space with Simplified Chinese, Korean, and Japanese language variants.
 """
     for lang in LANGS:
         (DOCS / lang / "project" / "qa-report.md").write_text(md, encoding="utf-8")
