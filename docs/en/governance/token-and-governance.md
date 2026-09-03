@@ -10,7 +10,7 @@ Good Tomorrow is the native ecosystem token of the Good Tomorrow protocol and is
 
 The initial token structure is deliberately simple. It does not include traditional multi-round private sales, institutional investor allocations, or complex early unlock schedules. Supply is primarily allocated to initial liquidity, long-term locked release, and ecosystem growth.
 
-![Token supply allocation diagram](../../.gitbook/assets/image3-en.png)
+![Token supply allocation diagram](../../.gitbook/assets/token-supply-allocation-en.png)
 
 | Allocation Category | Amount | Share of Total Supply |
 | --- | ---: | ---: |

@@ -103,7 +103,7 @@ Good Tomorrow therefore does not use a static allocation model. Capital allocati
 
 Good Tomorrow is a liquidity-based onchain financial infrastructure protocol. Its operating flow consists of asset deposits, liquidity management, capital allocation, financial activities, yield settlement, and profit distribution.
 
-![Protocol capital flow diagram](../../.gitbook/assets/image1-en.png)
+![Protocol capital flow diagram](../../.gitbook/assets/protocol-capital-flow-en.png)
 
 ## Operating Flow
 
@@ -118,7 +118,7 @@ Good Tomorrow is a liquidity-based onchain financial infrastructure protocol. It
 
 ## Five Core Modules
 
-![Protocol system architecture diagram](../../.gitbook/assets/image2-en.png)
+![Protocol system architecture diagram](../../.gitbook/assets/protocol-system-architecture-en.png)
 
 Good Tomorrow's architecture consists of five mutually dependent modules:
 
@@ -300,7 +300,7 @@ Good Tomorrow is the native ecosystem token of the Good Tomorrow protocol and is
 
 The initial token structure is deliberately simple. It does not include traditional multi-round private sales, institutional investor allocations, or complex early unlock schedules. Supply is primarily allocated to initial liquidity, long-term locked release, and ecosystem growth.
 
-![Token supply allocation diagram](../../.gitbook/assets/image3-en.png)
+![Token supply allocation diagram](../../.gitbook/assets/token-supply-allocation-en.png)
 
 | Allocation Category | Amount | Share of Total Supply |
 | --- | ---: | ---: |
@@ -331,7 +331,7 @@ Over time, Good Tomorrow may form a governance structure composed of protocol go
 
 Good Tomorrow's development is centered on onchain liquidity. It begins with DeFi capital management and gradually expands into stablecoins, onchain finance, payments and settlement, and RWA liquidity infrastructure.
 
-![Long-term development roadmap diagram](../../.gitbook/assets/image4-en.png)
+![Long-term development roadmap diagram](../../.gitbook/assets/long-term-development-roadmap-en.png)
 
 The long-term path is:
 
@@ -782,7 +782,7 @@ APY는 중요한 지표이지만 수익의 출처를 설명하지는 않습니�
 
 Good Tomorrow는 유동성을 기반으로 하는 온체인 금융 인프라입니다. 운영 흐름은 자산 예치, 유동성 관리, 자본 배분, 금융 활동, 수익 정산, 이익 분배로 구성됩니다.
 
-![프로토콜 자본 흐름도](../../.gitbook/assets/image1-en.png)
+![프로토콜 자본 흐름도](../../.gitbook/assets/protocol-capital-flow-en.png)
 
 | 단계 | 기능 |
 | --- | --- |
@@ -793,7 +793,7 @@ Good Tomorrow는 유동성을 기반으로 하는 온체인 금융 인프라입�
 | 수익 정산 | 실현 수입을 확인하고 집계합니다. |
 | 이익 분배 | 손실, 준비금, 비용 차감 후 배분합니다. |
 
-![프로토콜 시스템 아키텍처](../../.gitbook/assets/image2-en.png)
+![프로토콜 시스템 아키텍처](../../.gitbook/assets/protocol-system-architecture-en.png)
 
 Good Tomorrow의 핵심 모듈은 유동성 계층, 리스크 계층, 자본 배분 계층, 수익 정산 계층, 이익 분배 계층입니다. 이 모듈들은 독립적으로 움직이지 않고 하나의 금융 운영 프레임워크를 이룹니다.
 
@@ -853,7 +853,7 @@ Good Tomorrow의 리스크 관리는 자산 계층, 전략 계층, 프로토콜 
 
 Good Tomorrow는 Good Tomorrow 프로토콜의 네이티브 생태계 토큰이며 BNB Smart Chain 배포를 계획합니다. 총 공급량은 **10,000,000 Good Tomorrow**로 고정됩니다.
 
-![토큰 공급 배분 도표](../../.gitbook/assets/image3-en.png)
+![토큰 공급 배분 도표](../../.gitbook/assets/token-supply-allocation-en.png)
 
 | 배분 항목 | 수량 | 총 공급량 비중 |
 | --- | ---: | ---: |
@@ -874,7 +874,7 @@ $$
 
 Good Tomorrow는 온체인 유동성을 핵심 기반으로 삼아 DeFi 자본 관리에서 출발하고, 스테이블코인, 온체인 금융, 결제와 정산, RWA 유동성 인프라로 확장합니다.
 
-![장기 개발 로드맵 도표](../../.gitbook/assets/image4-en.png)
+![장기 개발 로드맵 도표](../../.gitbook/assets/long-term-development-roadmap-en.png)
 
 장기 경로는 **DeFi Liquidity -> Stablecoin Liquidity -> Multi-Asset Capital Network -> Payment and Settlement Liquidity -> RWA Liquidity -> Onchain Financial Infrastructure**입니다.
 
@@ -956,7 +956,7 @@ APY は重要な指標ですが、収益源を説明するものではありま�
 
 Good Tomorrow は流動性を基盤とするオンチェーン金融インフラです。運用フローは、資産預入、流動性管理、資本配分、金融活動、収益精算、利益分配で構成されます。
 
-![プロトコルの資本フロー図](../../.gitbook/assets/image1-en.png)
+![プロトコルの資本フロー図](../../.gitbook/assets/protocol-capital-flow-en.png)
 
 | 段階 | 機能 |
 | --- | --- |
@@ -967,7 +967,7 @@ Good Tomorrow は流動性を基盤とするオンチェーン金融インフラ
 | 収益精算 | 実現収入を確認し集計します。 |
 | 利益分配 | 損失、準備金、コストを差し引いて分配します。 |
 
-![プロトコルのシステムアーキテクチャ図](../../.gitbook/assets/image2-en.png)
+![プロトコルのシステムアーキテクチャ図](../../.gitbook/assets/protocol-system-architecture-en.png)
 
 主要モジュールは、流動性レイヤー、リスクレイヤー、資本配分レイヤー、収益精算レイヤー、利益分配レイヤーです。これらは独立して動くのではなく、共通の金融運用フレームワークを形成します。
 
@@ -1027,7 +1027,7 @@ Good Tomorrow のリスク管理は、資産レイヤー、戦略レイヤー、
 
 Good Tomorrow は Good Tomorrow プロトコルのネイティブエコシステムトークンであり、BNB Smart Chain への展開を予定しています。総供給量は **10,000,000 Good Tomorrow** に固定されます。
 
-![トークン供給配分図](../../.gitbook/assets/image3-en.png)
+![トークン供給配分図](../../.gitbook/assets/token-supply-allocation-en.png)
 
 | 配分区分 | 数量 | 総供給量比率 |
 | --- | ---: | ---: |
@@ -1048,7 +1048,7 @@ $$
 
 Good Tomorrow はオンチェーン流動性を中核基盤とし、DeFi 資本管理から始まり、ステーブルコイン、オンチェーン金融、決済・清算、RWA 流動性インフラへ拡張します。
 
-![長期開発ロードマップ図](../../.gitbook/assets/image4-en.png)
+![長期開発ロードマップ図](../../.gitbook/assets/long-term-development-roadmap-en.png)
 
 長期経路は **DeFi Liquidity -> Stablecoin Liquidity -> Multi-Asset Capital Network -> Payment and Settlement Liquidity -> RWA Liquidity -> Onchain Financial Infrastructure** です。
 

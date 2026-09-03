@@ -6,7 +6,7 @@ description: Good Tomorrow 백서
 
 Good Tomorrow는 Good Tomorrow 프로토콜의 네이티브 생태계 토큰이며 BNB Smart Chain 배포를 계획합니다. 총 공급량은 **10,000,000 Good Tomorrow**로 고정됩니다.
 
-![토큰 공급 배분 도표](../../.gitbook/assets/image3-en.png)
+![토큰 공급 배분 도표](../../.gitbook/assets/token-supply-allocation-en.png)
 
 | 배분 항목 | 수량 | 총 공급량 비중 |
 | --- | ---: | ---: |

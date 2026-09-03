@@ -6,7 +6,7 @@ description: Good Tomorrow ホワイトペーパー
 
 Good Tomorrow はオンチェーン流動性を中核基盤とし、DeFi 資本管理から始まり、ステーブルコイン、オンチェーン金融、決済・清算、RWA 流動性インフラへ拡張します。
 
-![長期開発ロードマップ図](../../.gitbook/assets/image4-en.png)
+![長期開発ロードマップ図](../../.gitbook/assets/long-term-development-roadmap-en.png)
 
 長期経路は **DeFi Liquidity -> Stablecoin Liquidity -> Multi-Asset Capital Network -> Payment and Settlement Liquidity -> RWA Liquidity -> Onchain Financial Infrastructure** です。
 

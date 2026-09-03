@@ -6,7 +6,7 @@ description: Good Tomorrow 백서
 
 Good Tomorrow는 온체인 유동성을 핵심 기반으로 삼아 DeFi 자본 관리에서 출발하고, 스테이블코인, 온체인 금융, 결제와 정산, RWA 유동성 인프라로 확장합니다.
 
-![장기 개발 로드맵 도표](../../.gitbook/assets/image4-en.png)
+![장기 개발 로드맵 도표](../../.gitbook/assets/long-term-development-roadmap-en.png)
 
 장기 경로는 **DeFi Liquidity -> Stablecoin Liquidity -> Multi-Asset Capital Network -> Payment and Settlement Liquidity -> RWA Liquidity -> Onchain Financial Infrastructure**입니다.
 

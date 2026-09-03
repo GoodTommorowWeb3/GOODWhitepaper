@@ -6,7 +6,7 @@ description: Good Tomorrow Whitepaper
 
 Good Tomorrow is a liquidity-based onchain financial infrastructure protocol. Its operating flow consists of asset deposits, liquidity management, capital allocation, financial activities, yield settlement, and profit distribution.
 
-![Protocol capital flow diagram](../../.gitbook/assets/image1-en.png)
+![Protocol capital flow diagram](../../.gitbook/assets/protocol-capital-flow-en.png)
 
 ## Operating Flow
 
@@ -21,7 +21,7 @@ Good Tomorrow is a liquidity-based onchain financial infrastructure protocol. It
 
 ## Five Core Modules
 
-![Protocol system architecture diagram](../../.gitbook/assets/image2-en.png)
+![Protocol system architecture diagram](../../.gitbook/assets/protocol-system-architecture-en.png)
 
 Good Tomorrow's architecture consists of five mutually dependent modules:
 

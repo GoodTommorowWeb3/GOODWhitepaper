@@ -6,7 +6,7 @@ description: Good Tomorrow ホワイトペーパー
 
 Good Tomorrow は Good Tomorrow プロトコルのネイティブエコシステムトークンであり、BNB Smart Chain への展開を予定しています。総供給量は **10,000,000 Good Tomorrow** に固定されます。
 
-![トークン供給配分図](../../.gitbook/assets/image3-en.png)
+![トークン供給配分図](../../.gitbook/assets/token-supply-allocation-en.png)
 
 | 配分区分 | 数量 | 総供給量比率 |
 | --- | ---: | ---: |
