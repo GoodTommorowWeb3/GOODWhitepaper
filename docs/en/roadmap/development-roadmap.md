@@ -6,7 +6,7 @@ description: Good Tomorrow Whitepaper
 
 Good Tomorrow's development is centered on onchain liquidity. It begins with DeFi capital management and gradually expands into stablecoins, onchain finance, payments and settlement, and RWA liquidity infrastructure.
 
-![Original Chinese roadmap diagram](../../.gitbook/assets/image4.png)
+![Long-term development roadmap diagram](../../.gitbook/assets/image4-en.png)
 
 The long-term path is:
 
